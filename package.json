@@ -5,11 +5,6 @@
     "scripts": {
       "start": "node index.js"
     },
-    "dependencies": {
-      "your-dependency": "1.2.3"
-    },
-    "devDependencies": {
-      "your-dev-dependency": "1.2.3"
-    }
+    "license": "MIT"
   }
   
