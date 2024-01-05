@@ -12,12 +12,14 @@ html, body {
     min-width: 100vw;
     font-size: 18px;
     margin: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
 .page {
     text-align: center;
     padding: 20px;
-    border: 1px solid #000000;
     box-sizing: border-box;
 }
 
@@ -35,5 +37,17 @@ button {
     color: #fff;
     border: none;
     border-radius: 8px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 

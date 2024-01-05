@@ -1,10 +1,10 @@
 // Sample data for genres and movies
 const genres = ['Action', 'Comedy', 'Romance', 'Thriller'];
 const movies = {
-    Action: ['Movie1', 'Movie2', 'Movie3'],
-    Comedy: ['Movie4', 'Movie5', 'Movie6'],
-    Romance: ['Movie7', 'Movie8', 'Movie9'],
-    Thriller: ['Movie10', 'Movie11', 'Movie12'],
+    Action: ['Badhshah', 'BangBang'],
+    Comedy: ['GolMaal', 'Housefull'],
+    Romance: ['Dilwale', 'DDLJ', 'Mohabatein'],
+    Thriller: ['Agneepath', 'Raees'],
 };
 
 // Function to start Movie Night
